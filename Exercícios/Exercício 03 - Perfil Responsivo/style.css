@@ -1,66 +1,71 @@
 body {
+    -webkit-print-color-adjust: exact;  
     background-color: #C0C0C0;
+    height: 100vw;
 }
 
 .ImagemDeFundo {
     background-color: #000000;
     border-style: solid;
-    border-width: 0.6em;
+    border-width: 0.7vw;
     border-color: #fa0000;
 }
 
 .ImagemDeFundo img {
-    width: 82em;
-    height: 21em;
+    width: 100%;
+    height: 25vw;
 }
 
-.ImagemDoPerfil {
-    background-color: #3902fd;
-    
+.ImagemDoPerfil { 
     border-style: solid;
-    border-width: 0.6em;
+    border-width: 0.4vw;
     border-color: #3902fd;
-
-    padding-top: 0.2em;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
+    background-color: #3902fd;
+    padding-top: 0.3vw;
+    padding-left: 0.3vw;
+    padding-right: 0.3vw;
     
     position: absolute;
-    left: 3em;
-    top: 17em;
+    left: 5vw;
+    top: 19vw;
 }
 
 .ImagemDoPerfil img {
-    width: 13em;
-    height: 13em;
+    width: 16vw;
+    height: 16vw;
 }
 
 .TituloNomeCompleto {
-    padding-left: 18em;
-    padding-bottom: 3em;
+    position: absolute;
+    left: 23vw;
+    top: 27vw;
 }
 
 h1 {
     font-family: Arial;
     color: #353839;
-    font-size: 3em;
+    font-size: clamp(0.08em, 0.08em + 4vw, 5em);
     font-weight: 900;
     font-style: italic;
 }
 
 .Links a {
     position: absolute;
-    left: 46em;
-    top: 22.6em;
-    font-size: 1.2em;    
+    text-align: right;
+    left: calc(103vw - 25em);
+    top: calc(33vw - 0.4em);
+    font-size: clamp(0.06em, 0.06em + 1.4vw, 3em);  
 }
 
 .TextoDeApresentação {
     background-color: #A9A9A9;
     border-style: solid;
-    border-width: 0.25em;
+    border-width: 0.3vw;
     border-color: #000000;
+
+    position: relative;
     width: 99.4%;
+    top: 15vw;
 }
 
 .FormatoDeLetra1 {
@@ -71,8 +76,7 @@ h1 {
     color: #000000;
     font-style: italic;
     font-family: Verdana;
-    font-size: 1.4em;
-    
+    font-size: clamp(0.2em, 0.2em + 1vw, 1.4em);    
 }
 
 .FormatoDeLetra3 {
@@ -88,7 +92,7 @@ h1 {
 .FormatoDeLetra5 {
     font-family: calibri;
     text-decoration: line-through;
-    font-size: 1.3em;
+    font-size: clamp(0.6em, 0.6em + 1.5vw, 2em);
     color: #2f00ff;
 }
 
@@ -111,23 +115,21 @@ h1 {
 
 p {
     font-family: Arial;
-    margin: 1em;
+    margin: 2vw;
     text-align: justify;
-    font-size: 1.4em;
-    text-indent: 1.5em;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    text-indent: 3vw;
 }
 
 p.left {
     font-family: Arial;
     text-align:left;
-    font-size: 1.4em;
-    text-indent: 1.5em;
 }
 
 p.center {
     font-family: Haettenschweiler;
     text-align:center;
-    font-size: 1.5em;
+    font-size: clamp(0.1em, 0.1em + 2vw, 3em);
     color: #000000;
     font-weight: 100;
 }

@@ -12,229 +12,233 @@
         CADASTRE SEU CURRÍCULO
     </h1>
 
-    <form name="form1" method="post"></form>
+    <form name="form1" method="post">
 
-    <div id="posiçãoTítulo1">
-        <h2>
-            1. Dados Pessoais
-        </h2>
-    </div>
+        <div id="posiçãoTítulo1">
+            <h2>
+                1. Dados Pessoais
+            </h2>
+        </div>
 
-    <table align="center">
-        <tbody>
-            <tr>
-                <td class="fixarColuna1"> Nome </td>
-                <td> <input class="input textos" type="text" name="nome" placeholder="Digite seu nome" maxlength="90"
-                        required />
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td class="fixarColuna1"> Nome </td>
+                    <td> <input class="input textos" type="text" name="nome" placeholder="Digite seu nome"
+                            maxlength="90" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1"> Data de Nascimento </td>
+                    <td> <input class="input data" type="date" name="data" /> </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1"> Estado Civil </td>
+                    <td> <select class="input estadoCivil" name="estadoCivil">
+                            <option disabled selected> Selecione o estado civil </option>
+                            <option value="solteiro"> Solteiro(a) </option>
+                            <option value="casado"> Casado(a) </option>
+                            <option value="viuvo"> Viúvo(a) </option>
+                            <option value="divorciado"> Divorciado(a) </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1"> Sexo </td>
+                    <td>
+                        <input type="radio" name="sexo" value="M" /><span class="formatarPalavra">Masculino </span>
+                        &nbsp
+                        <input type="radio" name="sexo" value="F" /><span class="formatarPalavra">Feminino </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="posiçãoTítulo2">
+            <h2>
+                2. Objetivo
+            </h2>
+        </div>
+
+        <table align="center">
+            <tbody>
+                <td class="fixarColuna1 dobrarTamanhoLinha"> Objetivo </td>
+                <td> <textarea class="input objetivo" name="objetivo" placeholder="Digite seu objetivo"
+                        required></textarea>
                 </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1"> Data de Nascimento </td>
-                <td> <input class="input data" type="date" name="data" /> </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1"> Estado Civil </td>
-                <td> <select class="input estadoCivil" name="estadoCivil">
-                        <option disabled selected> Selecione o estado civil </option>
-                        <option value="solteiro"> Solteiro(a) </option>
-                        <option value="casado"> Casado(a) </option>
-                        <option value="viuvo"> Viúvo(a) </option>
-                        <option value="divorciado"> Divorciado(a) </option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1"> Sexo </td>
-                <td>
-                    <input type="radio" name="sexo" value="M" /><span class="formatarPalavra">Masculino </span> &nbsp
-                    <input type="radio" name="sexo" value="F" /><span class="formatarPalavra">Feminino </span>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+            </tbody>
+        </table>
 
-    <div id="posiçãoTítulo2">
-        <h2>
-            2. Objetivo
-        </h2>
-    </div>
+        <div id="posiçãoTítulo3">
+            <h2>
+                3. Contato
+            </h2>
+        </div>
 
-    <table align="center">
-        <tbody>
-            <td class="fixarColuna1 dobrarTamanhoLinha"> Objetivo </td>
-            <td> <textarea class="input objetivo" name="objetivo" placeholder="Digite seu objetivo" required></textarea>
-            </td>
-        </tbody>
-    </table>
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td class="fixarColuna1"> Endereço </td>
+                    <td> <input class="input textos" type="text" name="endereço" placeholder="Digite seu endereço"
+                            maxlength="90" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1"> Cidade / Estado </td>
+                    <td>
+                        <input class="inputTextosCurto" type="text" name="cidade" placeholder="Digite sua cidade"
+                            maxlength="90" required /> <span class="formatarBarra"> / </span>
+                        <input class="inputTextosCurto" type="text" name="estado"
+                            placeholder="Digite seu Estado (Exemplo: SP)" maxlength="2" pattern="[A-Z]{2}" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1"> CEP </td>
+                    <td> <input class="input textos" type="text" name="cep"
+                            placeholder="Digite seu CEP no formato 99999-999" maxlength="9"
+                            pattern="[0-9]{5}[\-][0-9]{3}" required /> </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1"> Telefone / Celular </td>
+                    <td>
+                        <input class="inputTextosMédio" type="text" name="telefone"
+                            placeholder="Digite seu telefone no formato (99) 9999-9999" maxlength="14"
+                            pattern="[\(][0-9]{2}[\)][\s][0-9]{4}[\-][0-9]{4}" required /> <span class="formatarBarra">
+                            /
+                        </span>
+                        <input class="inputTextosMédio" type="text" name="celular"
+                            placeholder="Digite seu celular no formato (99) 99999-9999" maxlength="15"
+                            pattern="[\(][0-9]{2}[\)][\s][0-9]{5}[\-][0-9]{4}" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1"> E-mail </td>
+                    <td>
+                        <input class="input textos" type="email" name="email" placeholder="Digite seu E-mail (válido)"
+                            maxlength="90" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="fixarColuna1" rowspan="4"> Rede Social </td>
+                    <td>
+                        <img src="./Imagens/face.png" alt="Logo do Face" width="3%" align="center"> <span
+                            class="formatarRedesSociais"> http://facebook.com/ </span>
+                        <input class="input facebook" type="text" name="facebook" placeholder="Perfil Facebook"
+                            maxlength="60">
+                    </td>
+                </tr>
 
-    <div id="posiçãoTítulo3">
-        <h2>
-            3. Contato
-        </h2>
-    </div>
+                <tr>
+                    <td>
+                        <img src="./Imagens/linkedin.png" alt="Logo do Linkedin" width="3%" align="center"> <span
+                            class="formatarRedesSociais"> http://linkedin.com/ </span>
+                        <input class="input facebook linkdin" type="text" name="linkdin" placeholder="Perfil Linkedin"
+                            maxlength="60">
+                </tr>
 
-    <table align="center">
-        <tbody>
-            <tr>
-                <td class="fixarColuna1"> Endereço </td>
-                <td> <input class="input textos" type="text" name="endereço" placeholder="Digite seu endereço"
-                        maxlength="90" required />
-                </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1"> Cidade / Estado </td>
-                <td>
-                    <input class="inputTextosCurto" type="text" name="cidade" placeholder="Digite sua cidade"
-                        maxlength="90" required /> <span class="formatarBarra"> / </span>
-                    <input class="inputTextosCurto" type="text" name="estado"
-                        placeholder="Digite seu Estado (Exemplo: SP)" maxlength="2" pattern="[A-Z]{2}" required />
-                </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1"> CEP </td>
-                <td> <input class="input textos" type="text" name="cep"
-                        placeholder="Digite seu CEP no formato 99999-999" maxlength="9" pattern="[0-9]{5}[\-][0-9]{3}"
-                        required /> </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1"> Telefone / Celular </td>
-                <td>
-                    <input class="inputTextosMédio" type="text" name="telefone"
-                        placeholder="Digite seu telefone no formato (99) 9999-9999" maxlength="14"
-                        pattern="[\(][0-9]{2}[\)][\s][0-9]{4}[\-][0-9]{4}" required /> <span class="formatarBarra"> /
-                    </span>
-                    <input class="inputTextosMédio" type="text" name="celular"
-                        placeholder="Digite seu celular no formato (99) 99999-9999" maxlength="15"
-                        pattern="[\(][0-9]{2}[\)][\s][0-9]{5}[\-][0-9]{4}" required />
-                </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1"> E-mail </td>
-                <td>
-                    <input class="input textos" type="email" name="email" placeholder="Digite seu E-mail (válido)"
-                        maxlength="90" required />
-                </td>
-            </tr>
-            <tr>
-                <td class="fixarColuna1" rowspan="4"> Rede Social </td>
-                <td>
-                    <img src="./Imagens/face.png" alt="Logo do Face" width="3%" align="center"> <span
-                        class="formatarRedesSociais"> http://facebook.com/ </span>
-                    <input class="input facebook" type="text" name="facebook" placeholder="Perfil Facebook"
-                        maxlength="60">
-                </td>
-            </tr>
+                <tr>
+                    <td>
+                        <img src="./Imagens/twitter.png" alt="Logo do Twitter" width="3%" align="center"> <span
+                            class="formatarRedesSociais"> http://twitter.com/ </span>
+                        <input class="input facebook twitter" type="text" name="facebook" placeholder="Perfil Twitter"
+                            maxlength="60">
 
-            <tr>
-                <td>
-                    <img src="./Imagens/linkedin.png" alt="Logo do Linkedin" width="3%" align="center"> <span
-                        class="formatarRedesSociais"> http://linkedin.com/ </span>
-                    <input class="input facebook linkdin" type="text" name="linkdin" placeholder="Perfil Linkedin"
-                        maxlength="60">
-            </tr>
+                    </td>
+                </tr>
 
-            <tr>
-                <td>
-                    <img src="./Imagens/twitter.png" alt="Logo do Twitter" width="3%" align="center"> <span
-                        class="formatarRedesSociais"> http://twitter.com/ </span>
-                    <input class="input facebook twitter" type="text" name="facebook" placeholder="Perfil Twitter"
-                        maxlength="60">
+                <tr>
+                    <td>
+                        <img src="./Imagens/skype.png" alt="Logo do Skype" width="3%" align="center">
+                        <input class="input skype" type="text" name="facebook" placeholder="Perfil Skype"
+                            maxlength="60">
 
-                </td>
-            </tr>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-            <tr>
-                <td>
-                    <img src="./Imagens/skype.png" alt="Logo do Skype" width="3%" align="center">
-                    <input class="input skype" type="text" name="facebook" placeholder="Perfil Skype" maxlength="60">
+        <div id="posiçãoTítulo4">
+            <h2>
+                4. Conhecimentos
+            </h2>
+        </div>
 
-                </td>
-            </tr>
-        </tbody>
-    </table>
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td class="fixarColuna1" rowspan="7"> Linguagens de Programação </td>
 
-    <div id="posiçãoTítulo4">
-        <h2>
-            4. Conhecimentos
-        </h2>
-    </div>
+                    <td class="linhaTransparente"> <input type="checkbox" name="LinguagemDeProgramação" value="c/c++">
+                        <span class="formatarLinguagens">
+                            C/C++ </span> </td>
+                </tr>
 
-    <table align="center">
-        <tbody>
-            <tr>
-                <td class="fixarColuna1" rowspan="7"> Linguagens de Programação </td>
+                <tr>
+                    <td class="linhaTransparente"> <input type="checkbox" name="PL" value="java"> <span
+                            class="formatarLinguagens">
+                            Java </span> </td>
+                </tr>
 
-                <td class="linhaTransparente"> <input type="checkbox" name="LinguagemDeProgramação" value="c/c++"> <span
-                        class="formatarLinguagens">
-                        C/C++ </span> </td>
-            </tr>
+                <tr>
+                    <td class="linhaTransparente"> <input type="checkbox" name="PL" value="visualBasic"> <span
+                            class="formatarLinguagens">
+                            Visual Basic </span> </td>
+                </tr>
 
-            <tr>
-                <td class="linhaTransparente"> <input type="checkbox" name="PL" value="java"> <span
-                        class="formatarLinguagens">
-                        Java </span> </td>
-            </tr>
+                <tr>
+                    <td class="linhaTransparente"> <input type="checkbox" name="PL" value=".net"> <span
+                            class="formatarLinguagens">
+                            .Net </span> </td>
+                </tr>
 
-            <tr>
-                <td class="linhaTransparente"> <input type="checkbox" name="PL" value="visualBasic"> <span
-                        class="formatarLinguagens">
-                        Visual Basic </span> </td>
-            </tr>
+                <tr>
+                    <td class="linhaTransparente"> <input type="checkbox" name="PL" value="php"> <span
+                            class="formatarLinguagens">
+                            PHP </span> </td>
+                </tr>
 
-            <tr>
-                <td class="linhaTransparente"> <input type="checkbox" name="PL" value=".net"> <span
-                        class="formatarLinguagens">
-                        .Net </span> </td>
-            </tr>
+                <tr>
+                    <td class="linhaTransparente"> <input type="checkbox" name="PL" value="python"> <span
+                            class="formatarLinguagens">
+                            Python </span> </td>
+                </tr>
 
-            <tr>
-                <td class="linhaTransparente"> <input type="checkbox" name="PL" value="php"> <span
-                        class="formatarLinguagens">
-                        PHP </span> </td>
-            </tr>
+                <tr>
+                    <td> <input type="checkbox" name="PL" value="html"> <span class="formatarLinguagens">
+                            HTML </span> </td>
+                </tr>
 
-            <tr>
-                <td class="linhaTransparente"> <input type="checkbox" name="PL" value="python"> <span
-                        class="formatarLinguagens">
-                        Python </span> </td>
-            </tr>
+                <tr>
+                    <td class="fixarColuna1"> Idiomas </td>
+                    <td> <span class="formatarPalavra"> &nbsp Inglês: </span>
+                        <select class="inputTextosCurto" name="inglês">
+                            <option disabled selected> Nível de Inglês </option>
+                            <option value="básico"> Básico </option>
+                            <option value="intermediário"> Intermediario </option>
+                            <option value="avancado"> Avançado </option>
+                        </select>
+                        <span class="formatarBarra"> &nbsp&nbsp/&nbsp </span>
+                        <span class="formatarPalavra"> Espanhol: </span>
+                        <select class="inputTextosCurto" name=" espanhol">
+                            <option disabled selected> Nível de Espanhol </option>
+                            <option value="básico"> Básico </option>
+                            <option value="intermediário"> Intermediario </option>
+                            <option value="avancado"> Avançado </option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
-            <tr>
-                <td> <input type="checkbox" name="PL" value="html"> <span class="formatarLinguagens">
-                        HTML </span> </td>
-            </tr>
+        </br>
 
-            <tr>
-                <td class="fixarColuna1"> Idiomas </td>
-                <td> <span class="formatarPalavra"> &nbsp Inglês: </span>
-                    <select class="inputTextosCurto" name="inglês">
-                        <option disabled selected> Nível de Inglês </option>
-                        <option value="básico"> Básico </option>
-                        <option value="intermediário"> Intermediario </option>
-                        <option value="avancado"> Avançado </option>
-                    </select>
-                    <span class="formatarBarra"> &nbsp&nbsp/&nbsp </span>
-                    <span class="formatarPalavra"> Espanhol: </span>
-                    <select class="inputTextosCurto" name=" espanhol">
-                        <option disabled selected> Nível de Espanhol </option>
-                        <option value="básico"> Básico </option>
-                        <option value="intermediário"> Intermediario </option>
-                        <option value="avancado"> Avançado </option>
-                    </select>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+        <div id="posiçãoDosBotões">
+            <input class="formatarBotões" type="reset" name="reset" value="Limpar" /> <span id="formatarBarraBotões">
+                &nbsp&nbsp|&nbsp&nbsp </span>
+            <input class="formatarBotões" type="submit" name="submit" value="Enviar" />
+        </div>
 
-    </br>
-
-    <div id="posiçãoDosBotões">
-        <input type="reset" class="formatarBotões" value="Limpar" /> <span id="formatarBarraBotões">
-            &nbsp&nbsp|&nbsp&nbsp </span>
-        <input type="submit" class="formatarBotões" value="Enviar" />
-    </div>
-
-    <br>
+        <br>
 
     </form>
 

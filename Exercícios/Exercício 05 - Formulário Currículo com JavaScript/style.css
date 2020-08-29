@@ -1,0 +1,250 @@
+/* Confecciona uma borda em volta do formulário */
+body {
+    background-color: #b3b3b3;
+    border-color: rgb(27, 18, 107);
+    margin: 3em;
+    border-style: solid;
+    border-radius: 2em;
+}
+
+/* Define o tamanho das linhas da table e ajuste das bordas */
+table, td{
+    border: 0.25vw solid #b3b3b3;
+    height: 2.5vw;
+    background-color: #56a15c5b;
+}
+
+/* Altera tipo da borda e o tamanho da coluna */
+table{
+    border-collapse: collapse;
+    width: calc(95% - 10vw);
+    
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Permite que todas as colunas tenham o mesmo tamanho e podendo alterar a primeira coluna inteira da table como o enunciado solicita */ 
+td.fixarColuna1{
+    width: 20vw;
+    background-color: #3d8043e5;
+    color: rgb(27, 18, 107);
+    font-style: normal;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: clamp(0.3em, 0.3em + 1vw, 1.1em);
+}
+
+/* Permite maior visualização do textarea no objetivo */
+td.fixarColuna1.dobrarTamanhoLinha{
+    height: 5vw;
+}
+
+/* Permitir que a linha fica transparente, dando a impressão que esta sem linha em um mesmo campo da table */
+td.linhaTransparente{
+    border-bottom: 0.25vw solid transparent;
+}
+
+/* Título principal da página */
+h1 {
+    font-family: Arial;
+    text-align:center;
+    font-size: clamp(1em, 1em + 2vw, 2.7em);
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: rgb(27, 18, 107);
+}
+
+/* Ajustar subtítulos como solicitado no enunciado do problema (1, 2, 3, 4) */
+h2 {
+    padding-left: 7.3vw;
+    font-family: Arial;
+    color: #ce2525;
+    font-size: clamp(0.1em, 0.1em + 2vw, 2em);
+    font-weight: bold;
+}
+
+/* Classe principal dos tipos de entradas com todos os ajustes que a maioria das outras classes também precisariam */
+.input {
+    vertical-align: middle;
+    margin-right: 5%;
+    font-family: Arial;
+    margin-top: 0.06vw;
+}
+
+/* Ajustar o campo de entradas mais usadas, como Nome, Endereço, CEP e E-mail */
+.input.textos
+{
+    width: 90%;
+    height: 92%;
+    font-size: clamp(0.2em, 0.2em + 0.9vw, 0.9em);
+}
+
+/* Ajustar o campo de entrada da data na linha da table */
+.input.data
+{
+    width: calc(90% + 0.2em);
+    height: 75%; 
+    font-size: clamp(0.2em, 0.2em + 1vw, 0.9em);
+}
+
+/* Ajustar o campo de entrada do Estado Civil na linha da table */
+.input.estadoCivil
+{
+    width: 40%;
+    height: 89%; 
+    font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+}
+
+/* Ajustar o campo de entrada do objetivo na linha da table */
+.input.objetivo
+{
+    width: 90.34%;
+    height: 97%;
+    font-size: clamp(0.2em, 0.2em + 0.9vw, 0.9em);
+}
+
+/* Editar campos de entrada de textos de tamanho pequeno no formulário */
+.inputTextosCurto
+{
+    width: 32%;
+    height: 90%;
+    font-size: clamp(0.05em, 0.075em + 0.8vw, 3em);
+    margin-top: 0.11vw;
+}
+
+/* Editar campos de entrada de textos de tamanho médio no formulário */
+.inputTextosMédio
+{
+    /* Foi preciso realizar esse cálculo para tornar o desing responsivo, pois sem ele "bagunçaria" em outras versões de tela */
+    width: calc(48.4% - 3em);
+    height: 86%;
+    font-size: clamp(0.05em, 0.075em + 0.85vw, 3em);
+    margin-top: 0.13vw;
+}
+
+/* Altera apenas campo do facebook */
+.input.facebook
+{
+    width: calc(84.2% - 10.7em);
+    height: 86%;
+    font-size: clamp(0.2em, 0.2em + 0.8vw, 0.9em);
+}
+
+/* Edita campo do facebook e linkdin */
+.input.facebook.linkdin
+{
+    margin-left: calc(1.56vw - 1.1%);
+}
+
+/* Edita campo do facebook e twitter */
+.input.facebook.twitter
+{
+    margin-left: calc(3.3vw - 2.3%);
+}
+
+/* Edita o campo de skype */
+.input.skype
+{
+    width: calc(88.3% - 0.8em);
+    height: 86%;
+    font-size: clamp(0.2em, 0.2em + 0.8vw, 0.9em);
+}
+
+/* Altera as características da barra "/" */
+.formatarBarra
+{
+    vertical-align: middle;
+    font-size: clamp(0.5em, 0.5em + 1.3vw, 1.7em);
+    font-weight: bold;
+}
+
+/* Altera as características da barra "|" */
+#formatarBarraBotões
+{
+    font-size: clamp(0.35em, 0.35em + 1.3vw, 1.7em);
+    font-weight: bold;
+}
+
+/* Ajuste das definições de palavras utilizadas no formulário */
+.formatarPalavra
+{
+    font-family: Arial;
+    font-size: clamp(0.15em, 0.15em + 1vw, 1em);
+    vertical-align: center;
+}
+
+/* Formata os campos das redes sociais da melhor maneira possível em relação a linha da tabela */
+.formatarRedesSociais{
+    font-family: Arial;
+    font-size: clamp(0.2em, 0.2em + 1.1vw, 1.5em);
+    vertical-align: bottom;
+}
+
+/* Tamanho da letra que exibe o texto das linguagens de programação */
+.formatarLinguagens
+{
+    font-family: Arial;
+    font-size: clamp(0.3em, 0.3em + 1.2vw, 1.5em);
+}
+
+/* Permite que o botão fique centralizado no abaixo do formulário */
+#posiçãoDosBotões{
+    text-align: center;
+}
+
+/* Altera as características dos botões utilizados */
+.formatarBotões{
+    width: 8vw;
+    height: 2em;
+    vertical-align: middle;
+    font-size: clamp(0.3em, 0.3em + 1.1vw, 1.5em);
+    background-color: #007fff;
+    color: #ffffff;
+    border-radius: 0.7em;
+    border-color: #4169e1;
+}
+
+/* 1. Dados Pessoais */
+#posiçãoTítulo1{
+    position: relative;
+    top: 1.8vw;
+}
+
+/* 2. Objetivo */
+#posiçãoTítulo2{
+    position: relative;
+    top: 1.8vw;
+}
+
+/* 3. Contato */
+#posiçãoTítulo3{
+    position: relative;
+    top: 1.8vw;
+}
+
+/* 4. Conhecimentos */
+#posiçãoTítulo4{
+    position: relative;
+    top: 1.8vw;
+}
+
+/* Limpar e Enviar */
+#posiçãoDosBotões{
+    text-align: center;
+}
+
+/* Validação de campos obrigatórios, inserindo imagem de x em campo não preenchido */
+input:required:invalid, input:focus:invalid , textarea:required:invalid, textarea:focus:invalid{
+    background-image: url("./Imagens/wrong.gif");
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+/* Se caso tiver preechido, em vez de x, é exibido imagem de um "check" */
+input:required:valid, textarea:required:valid {
+    background-image: url("./Imagens/check.png");
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}

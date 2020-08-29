@@ -1,8 +1,8 @@
 # Exercício 04 - Formulário Currículo  
 
-## Elaboração de uma página de um formulário para cadastramento de currículo em HTML5 e CSS3 (Desing Responsivo).  
+## Elaboração de uma página de um formulário para cadastramento de currículo em HTML5 e CSS3 (Design Responsivo).  
 
-### Abaixo pode se observar as diferentes resoluções de visualização da página criada, comprovando que a atividade foi realizada com desing responsivo.  
+### Abaixo pode se observar as diferentes resoluções de visualização da página criada, comprovando que a atividade foi realizada com design responsivo.  
 
 * Captura de tela da retirada do navegador Google Chrome, com as seguintes dimensões, width: 1484px e height: 1638px;    
 ![formulario html (Navegador - width_1366px X height_276px)](https://user-images.githubusercontent.com/56207941/91077741-fb1f7300-e617-11ea-86fe-7ee0ec7e96f7.png)

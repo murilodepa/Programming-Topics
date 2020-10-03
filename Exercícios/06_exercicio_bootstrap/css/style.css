@@ -1,0 +1,147 @@
+.carrosel {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.footerStyle {
+    background-color: #0a0b1d;
+}
+
+.setaVideo {
+    padding-top: 8.5vw;
+}
+
+.tituloTrailers {
+    font-family: arial;
+    font-size: clamp(1.5em, 1.5em + 1.5vw, 3em);
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.fontTitle {
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tituloTrailers.hulkEThor {
+    padding-left: 46%;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.tituloTrailers.homemDeFerroECapitão {
+    padding-left: 36%;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.tituloTrailers.viuvaNegra {
+    padding-left: 39%;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.tituloTrailers.arqueiro {
+    padding-left: 42%;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.borderImg {
+    border-width: medium;
+    border-style: solid;
+    border-color: #0a0b1d;
+    border-radius: 4px;
+}
+
+.borda {
+    border: none !important;
+}
+
+.menu {
+    background-color: #ed1d24 !important;
+}
+
+.fundo {
+    background-image: url("../img/galaxia.png");
+    max-width: 100%;
+}
+
+.fundo3 {
+    background-image: url("https://media3.giphy.com/media/YzU8NQXqtIKqc/giphy.gif?cid=ecf05e47n02r814lf5y63wt7i99a81rojtmgle0aizgjp4p3&rid=giphy.gif");
+    max-width: 100%;
+}
+
+.desc {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-style: italic;
+    font-style: oblique;
+    position: absolute;
+    padding-top: 49%;
+    text-align: center;
+    font-weight: 900;
+}
+
+.backgroundCards {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #0a0b1d;
+    border-radius: 1%;
+}
+
+.cards {
+    margin: 2%;
+    padding-bottom: 2%;
+}
+
+h3 {
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.tamanhoImagem {
+    width: 10vw;
+    height: 12vw;
+}
+
+.box {
+    padding-left: calc(30.4vw - 25%);
+    padding-top: 5vw;
+    display: inline-block;
+}
+
+#espacamento {
+    padding-top: 5vw;
+}
+
+#footer {
+    background-color: #4d4d4e;
+    color: white;
+    align: left;
+}
+
+.footer.copyright {
+    background-color: #030416;
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+li {
+    color: #818181;
+    font-size: clamp(0.1em, 0.1em + 1vw, 2em);
+}
+
+h5 {
+    color: #818181;
+    font-size: clamp(0.3em, 0.3em + 1.5vw, 2em);
+}
+
+.fimFooter{
+    font-size: clamp(0.2em, 0.2em + 1vw, 2em);
+}

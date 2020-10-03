@@ -1,0 +1,82 @@
+.teste{
+    /*background: linear-gradient(rgb(1, 183, 255), rgb(105, 103, 103), rgb(36, 35, 35));*/
+    height: 2.2vw;
+    background-color: #272727;
+}
+
+.img-tam{
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+
+
+.bordas{
+    border-radius: 30px;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 1vw;
+  
+}
+
+.fundo2{
+    
+        background-image: url("https://media3.giphy.com/media/YzU8NQXqtIKqc/giphy.gif?cid=ecf05e47n02r814lf5y63wt7i99a81rojtmgle0aizgjp4p3&rid=giphy.gif");
+        max-width: 100%;
+}
+
+.thorr{
+    background-image: url("https://media1.giphy.com/media/9vVCPK87Aw6v6/giphy.webp?cid=ecf05e47vhejuvg7qfemvkz9ehd95kap6mpdbwplbinpwdfx&rid=giphy.webp");
+    max-width: 100%;
+}
+
+.hulk{
+    background-image: url("https://tse4.explicit.bing.net/th?id=OIP.3iw-xMDbEyiXoUzxFtcq9QHaEK&pid=Api&P=0&w=287&h=162");
+    max-width: 100%;
+}
+
+.ironman{
+    background-image: url("https://media1.giphy.com/media/wkSyGueYTnk40/giphy.gif?cid=ecf05e47104340e8cc98a4915da1d1c553414baa96a87577&rid=giphy.gif");
+    max-width: 100%;
+}
+
+.viuva-negra{
+    background-image: url("https://media2.giphy.com/media/2O9bDaJDAIRRm/giphy.gif");
+    max-width: 100%;
+}
+
+.cp-america{
+    background-image: url("https://media4.giphy.com/media/zvijaN2Q5ETDy/giphy.gif");
+    max-width: 100%;
+}
+
+.archer{
+    background-image: url("https://media2.giphy.com/media/GncMCAvvZStPO/giphy.gif");
+    max-width: 100%;
+}
+.caixote{
+    padding-top: 2%;
+    background-color: black;
+}
+
+.txt-persona{
+ color: white;
+}
+
+.texto-central{
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    padding-top:5%;
+}
+
+.cx-principal{
+    margin-top: 0;
+    position: absolute;
+    width: 100vw;
+}

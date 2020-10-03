@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    </style>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <title>Cenas</title>
+</head>
+
+
+<body class="fundo">
+
+    <nav class="navbar navbar-expand-lg navbar-light menu">
+        <a class="navbar-brand" href="../index.html"> <img width="90vw" src="../img/logo marvel.png"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link  text-white " href="../pages/page2.html ">Personagens</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link text-white" href="#">Cenas</a>
+                    <audio id="playAudio" autoplay loop>
+                        <source src="../music/Centuries.mp3" type="audio/mp3">
+                    </audio>
+
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="carrosel">
+
+        <div id="trailers" class="carousel slide carrosel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#trailers" data-slide-to="0" class="active"></li>
+                <li data-target="#trailers" data-slide-to="1"></li>
+                <li data-target="#trailers" data-slide-to="2"></li>
+                <li data-target="#trailers" data-slide-to="3"></li>
+                <li data-target="#trailers" data-slide-to="4"></li>
+                <li data-target="#trailers" data-slide-to="5"></li>
+            </ol>
+
+            <div class="carousel-inner border rounded borda">
+                <div class="carousel-item active">
+
+                    <script>
+                        mudar_fundo()
+                    </script>
+
+                    <a href="Page2.html?2=flag" class="tituloTrailers hulkEThor" style="color: rgb(209, 209, 209);"> <span class="fontTitle">Thor</span>
+                    </a>
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/53GV5RnkFX0?mute=1&autoplay=0&rel=0" frameborder="0" allow="acceleromete; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page2.html?3=flag" class="tituloTrailers hulkEThor" style="color: rgb(209, 209, 209);"> <span class="fontTitle">Hulk</span>
+                    </a>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UKPADUQ8IpU?mute=1&autoplay=0&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page2.html?4=flag" class="tituloTrailers homemDeFerroECapitão" style="color: rgb(209, 209, 209);"> <span class="fontTitle">Homem de Ferro</span> </a>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6NfiyqICVVg?mute=1&autoplay=0&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page2.html?5=flag" class="tituloTrailers viuvaNegra" style="color: rgb(209, 209, 209);"> <span class="fontTitle">Viuva Negra</span> </a>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZIToDjSon48?mute=1&autoplay=0&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page2.html?6=flag" class="tituloTrailers homemDeFerroECapitão" style="color: rgb(209, 209, 209);"> <span class="fontTitle">Homem de Ferro</span></a>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lTCIDaJwPbs?mute=1&autoplay=0&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="Page2.html?7=flag" class="tituloTrailers arqueiro" style="color: rgb(209, 209, 209);"> <span class="fontTitle">Arqueiro</span> </a>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CJzY7JrOLLM?mute=1&autoplay=0&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev setaVideo" href="#trailers" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next setaVideo" href="#trailers" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div style="width: 150vw; margin-left: 18vw;">
+        <div class="col-6  mx-auto l clearfix box">
+            <img src="https://www.biography.com/.image/t_share/MTU0ODUwMjQ0NjIwNzI0MDAx/chris-hemsworth-poses-during-a-photo-call-for-thor-ragnarok-on-october-15-2017-in-sydney-australia-photo-by-mark-metcalfe_getty-images-for-disney-square.jpg" alt="Thor" class="tamanhoImagem borderImg">
+
+            <img src="https://br.web.img3.acsta.net/c_215_290/pictures/19/04/22/20/02/3083743.jpg" alt="Hulk" class="tamanhoImagem borderImg">
+
+            <img src="https://br.web.img2.acsta.net/pictures/18/06/29/00/35/0101925.jpg" alt="Homem de Ferro" class="tamanhoImagem borderImg">
+
+            <img src="https://i.pinimg.com/originals/62/7f/6f/627f6f3755582d28cb83194896c8fa50.jpg" alt="Viúva Negra" class="tamanhoImagem boxImagens borderImg">
+
+            <img src="https://vignette.wikia.nocookie.net/universocinematograficomarvel/images/b/b2/Chris_Evans.jpg/revision/latest/top-crop/width/360/height/450?cb=20150621180832&path-prefix=pt" alt="Capitão América" class="tamanhoImagem borderImg">
+
+            <img src="https://media.fstatic.com/EC-Pi_Ojq3btinDW3ZJvclNjG_0=/full-fit-in/290x478/media/artists/avatar/2015/12/jeremy-renner_a27214.jpg" alt="Arqueiro" class="tamanhoImagem borderImg">
+        </div>
+    </div>
+    <div id="espacamento"></div>
+    <footer class="footer footerStyle">
+        <div class="container" style="padding-top: 2%;padding-bottom: 2%">
+            <div class="row ">
+                <div class="col-4">
+                    <h5 style="padding-left: 3em"> Início </h5>
+                    <ul align="left">
+                        <li> <a href="./index.html">Home </a> </li>
+                        <li> <a href="./pages/page2.html ">Personagens </a> </li>
+                        <li> <a href="./pages/page3.html">Cenas </a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h5> Contribuidores </h5>
+                    <ul>
+                        <li> Carlos Vieira </li>
+                        <li> Murilo Araujo </a>
+                        </li>
+                        <li> Victor Reis </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h5 align="center"> GitHub </h5>
+                    <ul style=" padding-left: 10vw;">
+                        <li> <img src="../img/gitHub.png" alt="Logo do git" style="width: 8%"> <a href="https://github.com/carlloshenrry"> &nbspcarlloshenrry </a></li>
+                        <li> <img src="../img/gitHub.png" alt="Logo do git" style="width: 8%"> <a href="https://github.com/murilodepa"> &nbspmurilodepa </a></li>
+                        <li> <img src="../img/gitHub.png" alt="Logo do git" style="width: 8%"> <a href="https://github.com/Victor-Kings"> &nbspVictor-Kings </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div align="center" class="footer copyright fimFooter">
+            <p>© 2019 Copyright - Atividade com bootstrap; tema da MARVEL.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Objetos em JavaScript</title>
+    <script>
+        var carro = {
+            marca: 'Volkswagen',
+            modelo: 'Fusca',
+            cor: 'branco',
+            ano: 1990,
+            velocidade: 0,
+            acelerar: function(v) {
+                return this.velocidade += v;
+            },
+            parar: function() {
+                return this.velocidade = 0;
+            }
+        };
+        alert(carro.acelerar(10));
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

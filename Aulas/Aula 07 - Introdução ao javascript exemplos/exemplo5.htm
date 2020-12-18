@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>JSON Test</title>
+	<script type="text/javascript" src="exemplo4.json" charset="utf-8"></script>
+</head>
+
+<body>
+	<div id="displayText"></div>
+	<script>
+		var f = JSON.parse(funcionarios);
+		for (var i = 0; i < f.length; i++) {
+			document.getElementById('displayText').innerHTML += 'Nome: '
+				+ f[i].nome + ' - CPF: ' + f[i].cpf
+				+ ' - Telefones: Residencia: ' + f[i].telefone.residencia
+				+ ' - Telefones: Celular: ' + f[i].telefone.celular + '<br/><br/>';
+		}
+	</script>
+</body>
+
+</html>

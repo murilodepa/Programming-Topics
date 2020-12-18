@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>JSON Test</title>
+	<script type="text/javascript" src="exemplo4.json" charset="utf-8"></script>
+</head>
+
+<body>
+	<div id="displayText"></div>
+	<script>
+		var f = JSON.parse(funcionarios);
+		document.getElementById('displayText').innerHTML = f[0].nome;
+	</script>
+</body>
+
+</html>

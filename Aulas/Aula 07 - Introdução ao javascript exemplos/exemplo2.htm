@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Objetos em JavaScript</title>
+    <script>
+        // 'classe' Veiculo com construtor
+        function Veiculo(marca, modelo, cor, ano) {
+            this.marca = marca;
+            this.modelo = modelo;
+            this.cor = cor;
+            this.ano = ano;
+            this.velocidade = 0;
+        }
+        // adicionando métodos para Veiculo
+        Veiculo.prototype.acelerar = function (velocidade) {
+            return this.velocidade += velocidade;
+        }
+        Veiculo.prototype.parar = function () {
+            return this.velocidade = 0;
+        }
+
+        var veiculo = new Veiculo('Volkswagen', 'Fusca', 'branco', 1990);
+        alert(veiculo.modelo + ' - velocidade = ' + veiculo.acelerar(10));
+
+        // criando subclasse Carro que estende Veiculo
+        function Carro(marca, modelo, cor, ano) {
+            Veiculo.apply(this, arguments);
+        }
+        Carro.prototype = Object.create(Veiculo.prototype);
+        Carro.prototype.constructor = Veiculo;
+        Carro.prototype.buzinar = function(){
+            alert('fon fon');
+        }
+
+        var carro1 = new Carro('Ford', 'Focus', 'Preto', 2010);
+        var carro2 = new Carro('Fiat', 'Palio', 'azul', 1995);
+        alert(carro1.modelo + ' - velocidade = ' + carro1.acelerar(15));
+        alert(carro2.modelo + ' - velocidade = ' + carro2.acelerar(20));
+        carro2.buzinar();
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

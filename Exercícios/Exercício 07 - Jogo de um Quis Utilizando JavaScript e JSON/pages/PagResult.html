@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="../js/scriptPage2.js"></script>
+    <script type="text/javascript" src="./json/questions.json" charset="utf-8"></script>
+    <link href="../css/style.css" rel="stylesheet">
+
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <title>Resultado</title>
+</head>
+
+<body class="resultfundo">
+    <script>
+        $(document).ready(function() {
+            getQuery();
+        });
+
+        $(document).ready(function() {
+            porcentagem(document.getElementById("score").innerHTML);
+        });
+    </script>
+
+    <div class="titulo" align="center"> RESULTADO </div>
+
+    <span class="acertos"> Você acertou: <span id="score"></span> questões de 11! </span>
+
+    <div class="tempo"> Tempo Total: <span style="padding-left: 25px;" id="tempo"> </span> </div>
+
+    <div class="percent"> Resultando em um percentual total de  <span id="porcentagem" > de acertos </span></div>
+
+    <a class="editarBotao" href="../index.html"><img width="130vw" src="../img/Botao_refazer.png"></a>
+
+</body>
+
+</html>

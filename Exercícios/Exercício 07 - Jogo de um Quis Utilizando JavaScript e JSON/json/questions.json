@@ -1,0 +1,123 @@
+var questions = [
+    {
+        "nome": "Pantera", //1
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017563885436928/PanteraNegra.jpg",
+        "respPrinc": "Pantera Negra",
+        "respostas": [
+            "Pantera Negra",
+            "Homem-Aranha",
+            "Senhor das Estrelas",
+            "Daredevil"
+        ]
+    },
+    {
+        "nome": "AdamWarlock", //2
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017550342553601/AdamWarlock.jpg",
+        "respPrinc": "Adam Warlock",
+        "respostas": [
+            "Thor",
+            "Adam Warlock",
+            "Thanos",
+            "Homem de Ferro"
+        ]
+    },
+    {
+        "nome": "Mercurio", //3
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017563445952512/Mercurio.jpg",
+        "respPrinc": "Mercurio",
+        "respostas": [
+            "Deadpool",
+            "Mercurio",
+            "Visão",
+            "Senhor das Estrelas"
+        ]
+    },
+    {
+        "nome": "Elektra", //4
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017561092816896/Elektra.jpg",
+        "respPrinc": "Elektra",
+        "respostas": [
+            "Gamora",
+            "Namor",
+            "Viúva Negra",
+            "Elektra"
+        ]
+    },
+    {
+        "nome": "Hulk", //5
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017562737246268/Hulk.jpg",
+        "respPrinc": "Hulk",
+        "respostas": [
+            "Thanos",
+            "Homem de Ferro",
+            "Hulk",
+            "Venom"
+        ]
+    },
+    {
+        "nome": "Viúva Negra", //6
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017668579590204/ViuvaNegra.jpg",
+        "respPrinc": "Viúva Negra",
+        "respostas": [
+            "Gamora",
+            "Feiticeira Escarlate",
+            "Daredevil",
+            "Viúva Negra"
+        ]
+    },
+    {
+        "nome": "Thor", //7
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017569007206400/Thor.jpg",
+        "respPrinc": "Thor",
+        "respostas": [
+            "Loki",
+            "Thor",
+            "Logan",
+            "Adam Warlock"
+        ]
+    },
+    {
+        "nome": "Homem-Aranha", //8
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017562468548628/HomemAranha.jpg",
+        "respPrinc": "Homem-Aranha",
+        "respostas": [
+            "Venom",
+            "Homem-Aranha",
+            "Daredevil",
+            "Deadpool"
+        ]
+    },
+    {
+        "nome": "Deadpool", //9
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017555467468860/DeadPool.jpg",
+        "respPrinc": "Deadpool",
+        "respostas": [
+            "Deadpool",
+            "Homem-Aranha",
+            "Daredevil",
+            "Senhor das Estrelas"
+        ]
+    },
+    {
+        "nome": "Feiticeira Escarlate", //10
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017560799477790/FeiticeiraEscarlate.jpg",
+        "respPrinc": "Feiticeira Escarlate",
+        "respostas": [
+            "Feiticeira Escarlate",
+            "Viúva Negra",
+            "Namor",
+            "Gamora"
+        ]
+    },
+    {
+        "nome": "Doutor Estranho", //11
+        "imagem": "https://media.discordapp.net/attachments/497770271227379722/762017558970499122/DoutorEstranho.jpg",
+        "respPrinc": "Doutor Estranho",
+        "respostas": [
+            "Doutor Estranho",
+            "Senhor das Estrelas",
+            "Gavião Arqueiro",
+            "Capitão América"
+        ]
+    }
+];

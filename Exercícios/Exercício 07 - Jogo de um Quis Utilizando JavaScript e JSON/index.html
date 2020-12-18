@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./json/questions.json" charset="utf-8"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <title>QuizMarvel</title>
+</head>
+
+<body id="pers" class="teste">
+    <script>
+        $(document).ready(function () {
+            loadQuestion(-1);
+        });
+    </script>
+
+    <div align="center" class="questQuiz" id="pontuação">Pontuação: <span id="contQuiz">0</span> </div>
+    <div align="center">
+        <span  id="qtdImagens" class="questQuiz"> 0 / 11 - </span>
+        <span id="contador" class="questQuiz">00:00:00</span>
+    </div>
+
+    <div align="center" id="imgQuiz"></div>
+
+    <br />
+    <div align="center" class="questQuiz"> Quem é o personagem? </div>
+
+    <div class="backgroundCards ">
+        <div class="row cards ">
+            <div  class="col-md-5 " style="padding-top: 2% ">
+                <div class="card h-100 text-center">
+                    <a id="resp0" onclick="loadQuestion(0)"></a>
+                </div>
+            </div>
+            <div class=" col-md-5 " style="padding-top: 2% ">
+                <div class="card h-100 text-center ">
+                    <a id="resp1" onclick="loadQuestion(1)"></a>
+
+                </div>
+            </div>
+            <div class=" col-md-5 " style="padding-top: 2% ">
+                <div class="card h-100 text-center ">
+                    <a id="resp2" onclick="loadQuestion(2)"></a>
+
+                </div>
+            </div>
+            <div class="col-md-5 " style="padding-top: 2% ">
+                <div class="card h-100 text-center ">
+                    <a id="resp3" onclick="loadQuestion(3)"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

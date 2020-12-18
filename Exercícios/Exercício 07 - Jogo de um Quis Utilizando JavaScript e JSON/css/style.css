@@ -1,0 +1,278 @@
+.editarImagens {
+    width: 50vw;
+    height: 30vw;
+}
+
+.backgroundCards {
+    width: 80%;
+    padding-left: 27.5%;
+}
+
+#contador{
+    text-align: center;
+}
+
+.questQuiz{
+    font-size: 2vw;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#contador{
+    font-size: 1.5vw;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+#pontuação{
+    font-size: 2vw;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#qtdImagens{
+    font-size: 1.5vw;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+body{
+    width: 100vw; 
+    height:100vh;
+    margin:0;
+}
+
+.pantera{
+    background-image: url("https://images2.alphacoders.com/863/thumb-1920-863001.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    
+}
+
+.pantera .card {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pantera .questQuiz {
+    color: white;
+}
+
+.adamlock{
+    background-image: url("https://wallpaperplay.com/walls/full/f/2/6/170563.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.adamlock .card{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.adamlock .questQuiz{
+    color: white;
+}
+
+.mercurio{
+    background-image: url("http://papers.co/wallpaper/papers.co-ak75-avengers-age-of-ultron-aaron-taylor-johnson-quicksilver-35-3840x2160-4k-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.mercurio .card{
+    background-color: rgb(0, 45, 112);
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.mercurio .questQuiz{
+    color: white;    
+}
+
+.elektra {
+    background-image: url("https://cdn.discordapp.com/attachments/708027433793880144/762011127697113098/electra.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.elektra .card{
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.elektra .questQuiz{
+    color: red;
+}
+
+.hulk {
+    background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/04/Incredible-hulk-wallpaper-for-desktop-HD.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.hulk .card{
+    background-color:  green;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.hulk .questQuiz{
+    color: white;
+}
+
+.viuva {
+    background-image: url("https://images3.alphacoders.com/202/202217.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.viuva .card{
+    background-color: rgb(97, 19, 19);
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.viuva .questQuiz{
+    color: white;
+}
+
+.thor {
+    background-image: url("http://wallpapercave.com/wp/oqAPNMm.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.thor .card{
+    background-color: rgb(100, 214, 248);
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.thor .questQuiz{
+    color: white;
+}
+
+.miranha {
+    background-image: url("https://wallpaperplay.com/walls/full/e/e/d/136483.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.miranha .card{
+    background-color: rgb(184, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.miranha .questQuiz{
+    color: white;
+}
+
+.dead {
+    background-image: url("http://s1.picswalls.com/wallpapers/2015/11/22/deadpool-desktop-wallpapers_103659927_293.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.dead .card{
+    background-color: rgb(184, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.dead .questQuiz{
+    color: white;
+}
+
+.feiticeira {
+    background-image: url("https://images2.alphacoders.com/540/thumb-1920-540326.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.feiticeira .card{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.feiticeira .questQuiz{
+    color: white;
+}
+
+.estranho {
+    background-image: url("http://hdqwalls.com/wallpapers/doctor-strange-vector-art-k5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.estranho .card{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.estranho .questQuiz{
+    color: white;
+}
+
+.resultfundo{
+    text-align: center;
+    align-content: center;
+    background-image: url("https://cdn.wallpapersafari.com/72/75/0hzfNC.jpg");
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    align-self: center;
+    font-size: 4em;
+    padding-bottom: 2%;
+    padding-top: 14%;
+    color: white;
+}
+
+.acertos{
+    color: white;
+    font-size: 3em;
+    margin-top: 10%;
+    text-shadow: 2px 2px black;
+}
+
+.tempo{
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+    padding-top: 30px;
+}
+
+.percent{
+    color: white;
+    font-size: larger;
+    padding-top: 60px;
+    padding-bottom: 1em;
+    text-shadow: 2px 2px black;
+}
+
+.editarbotao{
+    padding-right: 100%;
+}
+
+
+

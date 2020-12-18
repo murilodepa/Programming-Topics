@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../javascripts/script.js"></script>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/styleaccordion.css" rel="stylesheet">
+    <script src="../javascripts/jquery.js"></script>
+    <script src="../javascripts/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="../javascripts/Translate.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            ClearCache();
+        });
+
+        $(document).ready(function() {
+            OpenPerson();
+        });
+
+        var idCards = ['TituloDescHomemFerro', 'titleHomemFerro', 'DescHomemFerro', 'DescHomemFerro2', 'HomeHomemFerro', 'PersonagensHomemFerro', 'CenasHomemFerro', 'AtoresHomemFerro', 'PortuguesHomemFerro', 'FrancesHomemFerro', 'AlemaoHomemFerro', 'EspanholHomemFerro', 'InglesHomemFerro'];
+    </script>
+
+    <title id="titleHomemFerro">HOMEM DE FERRO</title>
+</head>
+
+<body class="ironman" style="padding: 0%;">
+
+    <nav class="navbar navbar-expand-lg navbar-light menu">
+        <a class="navbar-brand" href="../index.html"> <img width="90vw" src="../img/logo marvel.png"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a id="HomeHomemFerro" class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item  active">
+                    <a id="PersonagensHomemFerro" class="nav-link text-white" href="./pages/Page2.html">Personagens</a>
+                </li>
+                <li class="nav-item ">
+                    <a id="CenasHomemFerro" class="nav-link  text-white " href="./page3.html ">Cenas</a>
+                </li>
+                <li class="nav-item ">
+                    <a id="AtoresHomemFerro" class="nav-link  text-white " href="./actors.html">Atores</a>
+                </li>
+                <li>
+                    <div align="right">
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+                            <div class="btn-group bottonband1" role="group" style="margin-left: 50vw;">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle bottonband" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a id="languagens"> <img class="imgLanguages"> </a>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a id="InglesHomemFerro" class="dropdown-item namelng" onclick="translateAPI(idCards, 'en', true)"> <span id="TextFilme"> Inglês </span> </a>
+                                    <a id="EspanholHomemFerro" class="dropdown-item namelng" onclick="translateOtherLanguagens(idCards, 'es');">Espanhol</a>
+                                    <a id="AlemaoHomemFerro" class="dropdown-item namelng" onclick="translateOtherLanguagens(idCards, 'de')">Alemão</a>
+                                    <a id="FrancesHomemFerro" class="dropdown-item namelng" onclick="translateOtherLanguagens(idCards, 'fr')">Francês</a>
+                                    <a id="PortuguesHomemFerro" class="dropdown-item namelng" onclick="translateOtherLanguagens(idCards, 'pt')">Português</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 id="TituloDescHomemFerro" class="texto-central"> Homem de Ferro</h1>
+    <!-- Grid row -->
+    <div class="row accordion-gradient-bcg d-flex justify-content-center" style="width: 100%;">
+
+        <!-- Grid column -->
+        <div class="col-md-10 col-xl-6 py-5">
+
+            <!--Accordion wrapper-->
+            <div class="accordion md-accordion accordion-2" id="accordionEx7" role="tablist" aria-multiselectable="true">
+
+                <!-- Accordion card -->
+                <div class="card caixote">
+
+                    <!-- Card header -->
+                    <div class="card-header rgba-stylish-strong z-depth-1 mb-1 teste bordas" role="tab" id="heading3">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx7" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                            <h5 class="mb-0 white-text text-uppercase font-thin titulo">
+                                Robert John Downey Jr <i class="fas fa-angle-down rotate-icon"></i>
+                            </h5>
+                        </a>
+                    </div>
+
+                    <!-- Card body -->
+                    <div id="collapse3" class="collapse show" role="tabpanel" aria-labelledby="heading3" data-parent="#accordionEx7">
+                        <div>
+                            <img src="https://vignette.wikia.nocookie.net/universocinematograficomarvel/images/9/92/Robert_Downey%2C_Jr.jpg/revision/latest/top-crop/width/360/height/450?cb=20150621153408&path-prefix=pt" alt="" class="img-tam">
+                        </div>
+                        <div class="card-body mb-1 rgba-grey-light white-text">
+                            <p id="DescHomemFerro" class=" txt-persona">Robert John Downey, Jr. (Nova Iorque, 4 de abril de 1965) é um ator, cantor, compositor e pianista[1] americano. Estreou como ator em 1970 aos 5 anos, no filme Pound, dirigido por seu pai, Robert Downey, Sr., e desde então
+                                tem atuado constantemente em trabalhos para televisão, cinema e ópera. Durante os anos 80, ele participou de diversos filmes associado a Brat Pack. Less than Zero (br: Abaixo de Zero) foi um filme particularmente notável,
+                                não apenas porque foi a primeira atuação de Downey aclamada pela crítica, mas também porque impulsionou o já existente problema com drogas do ator. Após este filme, Downey passou a atuar em filmes de maior escala, como
+                                Air America, Soapdish e Natural Born Killers (Assassinos por Natureza). Ele interpretou Charlie Chaplin em 1992 no filme Chaplin, pelo qual foi indicado ao Oscar de melhor ator. Porém, foi como o bilionário Tony Stark ou
+                                Homem de Ferro que ganhou maior notoriedade, interpretando-o no Universo Cinematográfico Marvel. Foi o ator mais bem pago do mundo durante três anos seguidos (2013, 2014, 2015), com ganhos de $50, $75, e $80 milhões de
+                                dólares, respectivamente.</p>
+                            <p id="DescHomemFerro2" class=" txt-persona">Downey é judeu e nasceu em Manhattan, Nova York, o mais novo de dois filhos. Ele e sua irmã, Allyson, cresceram em Greenwich Village. Seu pai, Robert Downey, Sr., é um diretor, escritor, ator e produtor de filmes independentes,
+                                e sua mãe, Elsie Downey, é também atriz (tendo aparecido em diversos filmes de Downey, Sr.). O pai tem ascendência irlandesa e russa, e mãe tem ascendência alemã e escocesa. Robert Downey, Sr. nasceu sob o nome de "Robert
+                                Elias", mas mudou seu sobrenome para "Downey" (por causa de seu padrasto James Downey) quando era menor de idade e queria se alistar no exército. Filho de um conhecido diretor e de uma atriz, Downey Jr., vivenciou desde
+                                criança o meio artístico do cinema, o que posteriormente o ajudou na carreira de ator. Com apenas 5 anos de idade apareceu no filme Pound e aos 7 anos em Greaser's Palace, ambos de seu pai. Quando criança, Downey vivia
+                                "rodeado pelas drogas". Seu pai, um usuário de drogas, permitiu que o filho consumisse maconha aos 6 anos, um incidente que hoje o pai se arrepende. Downey afirmou que o uso de drogas tornou-se um vínculo emocional entre
+                                ele e seu pai: "Quando eu e meu pai íamos consumir drogas juntos, era como se ele estivesse tentando expressar seu amor por mim da maneira que só ele sabia como". Eventualmente, Downey começou a abusar do álcool todas as
+                                noites e "fazendo mil telefonemas em busca de drogas".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.Accordion wrapper-->
+
+        </div>
+        <!-- Grid column -->
+
+    </div>
+
+    <footer class="footer footerStyle">
+        <div class="container" style="padding-top: 2%;padding-bottom: 2%">
+            <div class="row ">
+                <div class="col-4">
+                    <h5 style="padding-left: 3em"> Início </h5>
+                    <ul align="left">
+                        <li> <a href="./index.html">Home </a> </li>
+                        <li> <a href="./pages/page2.html ">Personagens </a> </li>
+                        <li> <a href="./pages/page3.html">Cenas </a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h5> Contribuidores </h5>
+                    <ul>
+                        <li> Carlos Vieira </li>
+                        <li> Murilo Araujo </a>
+                        </li>
+                        <li> Victor Reis </li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h5 align="center"> GitHub </h5>
+                    <ul style=" padding-left: 10vw;">
+                        <li> <img src="../img/gitHub.png" alt="Logo do git" style="width: 8%"> <a href="https://github.com/carlloshenrry"> &nbspcarlloshenrry </a></li>
+                        <li> <img src="../img/gitHub.png" alt="Logo do git" style="width: 8%"> <a href="https://github.com/murilodepa"> &nbspmurilodepa </a></li>
+                        <li> <img src="../img/gitHub.png" alt="Logo do git" style="width: 8%"> <a href="https://github.com/Victor-Kings"> &nbspVictor-Kings </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div align="center" class="footer copyright fimFooter">
+            <p>© 2020 Copyright - Projeto Final; Tema da MARVEL.</p>
+        </div>
+
+
+    </footer>
+    <!-- Grid row -->
+
+</body>
+
+</html>

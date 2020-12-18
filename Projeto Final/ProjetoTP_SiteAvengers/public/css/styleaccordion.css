@@ -1,0 +1,108 @@
+.imgLanguages {
+    content: url("https://imagensemoldes.com.br/wp-content/uploads/2020/05/Bandeira-do-Brasil-PNG.png");
+    width: 2.5vw;
+    border: 0.1vw solid #ffffff;
+    border-radius: 5px;
+}
+
+.imgEUA {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_the_U.S..svg/1280px-Flag_of_the_U.S..svg.png");
+    width: 2.5vw;
+    border: 0.1vw solid #ffffff;
+    border-radius: 5px;
+}
+
+.imgEspanha {
+    content: url("https://www.estudopratico.com.br/wp-content/uploads/2017/01/significado-e-origem-da-bandeira-da-espanha-1-1200x675.jpg");
+    width: 2.5vw;
+    border: 0.1vw solid #ffffff;
+    border-radius: 5px;
+}
+
+.imgAlemanha {
+    content: url("https://img.freepik.com/vetores-gratis/ilustracao-de-bandeira-alema_53876-27101.jpg?size=626&ext=jpg");
+    width: 2.5vw;
+    border: 0.1vw solid #ffffff;
+    border-radius: 5px;
+}
+
+.imgFranca {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png");
+    width: 2.5vw;
+    border: 0.1vw solid #ffffff;
+    border-radius: 5px;
+}
+
+.img-tam {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.bordas {
+    border-radius: 30px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.fundo2 {
+    background-image: url("https://media3.giphy.com/media/YzU8NQXqtIKqc/giphy.gif?cid=ecf05e47n02r814lf5y63wt7i99a81rojtmgle0aizgjp4p3&rid=giphy.gif");
+    max-width: 100%;
+}
+
+.thorr {
+    background-image: url("https://media1.giphy.com/media/9vVCPK87Aw6v6/giphy.webp?cid=ecf05e47vhejuvg7qfemvkz9ehd95kap6mpdbwplbinpwdfx&rid=giphy.webp");
+    max-width: 100%;
+}
+
+.hulk {
+    background-image: url("https://tse4.explicit.bing.net/th?id=OIP.3iw-xMDbEyiXoUzxFtcq9QHaEK&pid=Api&P=0&w=287&h=162");
+    max-width: 100%;
+}
+
+.ironman {
+    background-image: url("https://media1.giphy.com/media/wkSyGueYTnk40/giphy.gif?cid=ecf05e47104340e8cc98a4915da1d1c553414baa96a87577&rid=giphy.gif");
+    max-width: 100%;
+}
+
+.viuva-negra {
+    background-image: url("https://media2.giphy.com/media/2O9bDaJDAIRRm/giphy.gif");
+    max-width: 100%;
+}
+
+.cp-america {
+    background-image: url("https://media4.giphy.com/media/zvijaN2Q5ETDy/giphy.gif");
+    max-width: 100%;
+}
+
+.archer {
+    background-image: url("https://media2.giphy.com/media/GncMCAvvZStPO/giphy.gif");
+    max-width: 100%;
+}
+
+.caixote {
+    padding-top: 2%;
+    background-color: black;
+}
+
+.txt-persona {
+    color: white;
+}
+
+.texto-central {
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    padding-top: 5%;
+}
+
+.cx-principal {
+    margin-top: 0;
+    position: absolute;
+    width: 100vw;
+}
